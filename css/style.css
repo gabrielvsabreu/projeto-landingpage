@@ -19,9 +19,9 @@
     align-items: center;
 }
 
-header, main {
+header, main, footer {
     width: 1000px;
-    margin: 30px auto;
+    margin: 15px auto 0 auto;
 }
 
 header {
@@ -42,10 +42,16 @@ header nav ul li {
 }
 
 .btn {
-    background-color: #d94f25;
+    background-color: #D94929;
     color: white;
     padding: 5px 20px;
     border-radius: 20px;
+}
+
+body {
+    background-image: url('../img/bolha-background.png');
+    background-repeat: no-repeat;
+    background-position: left center;
 }
 
 main {
@@ -80,4 +86,12 @@ article p {
 
 footer ul {
     list-style: none;
+}
+
+footer ul li {
+    margin: 20px 20px 0 20px;
+}
+
+footer ul li img {
+    height: 20px;
 }
