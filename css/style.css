@@ -13,11 +13,17 @@
     text-decoration: none;
 }
 
-header {
-    width: 1000px;
-    margin: 30px auto;
+.row {
     display: flex;
     flex-direction: row;
+}
+
+header, main {
+    width: 1000px;
+    margin: 30px auto;
+}
+
+header {
     justify-content: space-between;
     align-items: center;
 }
@@ -28,14 +34,12 @@ header img {
 
 header nav ul {
     list-style: none;
-    display: flex;
-    flex-direction: row;
     align-items: center;
 }
 
 header nav ul li {
     margin: 0 20px;
-    color: #3399cc;
+    color: #0DA697;
 }
 
 .btn {
@@ -43,4 +47,18 @@ header nav ul li {
     color: white;
     padding: 5px 20px;
     border-radius: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+section img {
+    height: 460px;
+}
+
+footer ul {
+    list-style: none;
+    align-items: center;
 }
