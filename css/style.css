@@ -16,6 +16,7 @@
 .row {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 header, main {
@@ -25,7 +26,6 @@ header, main {
 
 header {
     justify-content: space-between;
-    align-items: center;
 }
 
 header img {
@@ -34,7 +34,6 @@ header img {
 
 header nav ul {
     list-style: none;
-    align-items: center;
 }
 
 header nav ul li {
@@ -56,9 +55,29 @@ main {
 
 section img {
     height: 460px;
+    margin-left: 50px;
+}
+
+article h1 {
+    font-size: 3em;
+    color: #1E1559;
+}
+
+article h2 {
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    font-size: 1.5em;
+    color: #F2A341;
+    margin: 0 0 20px 10px;
+}
+
+article p {
+    font-size: 1em;
+    padding: 10px;
+    margin-bottom: 30px;
+    color: #1E1559;
 }
 
 footer ul {
     list-style: none;
-    align-items: center;
 }
